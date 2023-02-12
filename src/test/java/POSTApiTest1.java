@@ -10,7 +10,7 @@ class POSTApiTest1 {
     void shouldPostDemoAccount() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("demo account version 1")
+                .body("demo account")
 
                 .when()
                 .post("/post")
